@@ -74,6 +74,9 @@ var y=setInterval(function(){
         else{
             i=59;
         }
+    
+    
+
   $("#ven").attr("style","visibility:visible;position:absolute;top:30%;left:35%;font-size:29px;font-weight:24;");
     $("#ven").html(j+':'+i+'');
     $("#text").hide();
