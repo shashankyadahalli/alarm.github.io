@@ -19,7 +19,7 @@ $("#time").append('<small>'+'PM'+'</small>');
     {  }
     else{
     }}
-    //about the code its web design
+    
     var mi=$("#min").val();
     if(mi.length<3){
      if(parseInt(mi)<59 && parseInt(mi)>=0){
@@ -77,7 +77,7 @@ var y=setInterval(function(){
   $("#ven").attr("style","visibility:visible;position:absolute;top:30%;left:35%;font-size:29px;font-weight:24;");
     $("#ven").html(j+':'+i+'');
     $("#text").hide();
-         },100);    
+         },1000);    
       }
    });   
 });
