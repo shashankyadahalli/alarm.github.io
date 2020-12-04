@@ -19,7 +19,7 @@ $("#time").append('<small>'+'PM'+'</small>');
     {  }
     else{
     }}
-    
+    //about the code its web design
     var mi=$("#min").val();
     if(mi.length<3){
      if(parseInt(mi)<59 && parseInt(mi)>=0){
