@@ -217,6 +217,9 @@ f{
   left:30%;
   position:absolute;
 }
+.head{
+    color:white;
+    }
 @media only screen and (min-width: 600px){
   @media only screen and (max-width: 768px){
    #pho{
